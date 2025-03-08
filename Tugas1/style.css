@@ -9,14 +9,6 @@ img{
     height:200px;
 }
 
-/* Garis Horizontal */
-hr {
-    border: none;
-    height: 1px;
-    color: #333; 
-    background-color: #333;
-}
-
 /* background Warna Paragraf */
 .p1{
     background-color: lightgray;
