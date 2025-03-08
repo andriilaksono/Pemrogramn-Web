@@ -1,0 +1,31 @@
+h1{
+    color: blue;
+}
+
+img{
+    width:200px;
+    height:200px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    color: #333; 
+    background-color: #333;
+}
+
+.sks{
+    vertical-align: sub;
+}
+
+.tinggi{
+    vertical-align: super;
+}
+
+.p1{
+    background-color: lightgray;
+}
+
+.kuning{
+    background-color: yellow;
+}
