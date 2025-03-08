@@ -1,12 +1,15 @@
+/* Warna Judul */
 h1{
     color: blue;
 }
 
+/* Ukuran Gambar */
 img{
     width:200px;
     height:200px;
 }
 
+/* Garis Horizontal */
 hr {
     border: none;
     height: 1px;
@@ -14,18 +17,7 @@ hr {
     background-color: #333;
 }
 
-.sks{
-    vertical-align: sub;
-}
-
-.tinggi{
-    vertical-align: super;
-}
-
+/* background Warna Paragraf */
 .p1{
     background-color: lightgray;
-}
-
-.kuning{
-    background-color: yellow;
 }
