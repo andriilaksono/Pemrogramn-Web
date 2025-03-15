@@ -1,0 +1,38 @@
+.profile{
+    text-align: center;
+}
+
+.profile img{
+    width: 120px;
+    border-radius: 50%; 
+}
+
+h2 {
+    color: #8b5c7e;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid white; 
+    padding: 5px;
+    text-align: left;
+}
+
+th {
+    background: #d8a7b3;
+    color: white;
+}
+
+tr:nth-child(odd) td {
+    background: #e7c6cb; 
+}
+
+tr:nth-child(even) td {
+    background: #f9f0f1;
+}
+
