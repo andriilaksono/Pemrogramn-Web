@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Diri_23.11.5579</title>
+</head>
+<body style="display: grid; place-items: center; height: 90vh; ">
+    <form id="biodataForm">
+        <fieldset>
+            <legend>Biodata Diri</legend>
+            <table>
+                    <tr>
+                        <td><label for="nama-depan">Nama Depan</label></td>
+                        <td>:</td>
+                        <td><input type="text" id="nama-depan" name="nama_depan" placeholder="Nama Depan"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><label for="nama-belakang">Nama Belakang</label></td>
+                        <td>:</td>
+                        <td><input type="text" id="nama-belakang" name="nama_belakang" placeholder="Nama Belakang"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><label>Hobi</label></td>
+                        <td>:</td>
+                        <td>
+                            <select name="hobi" id="hobi">
+                                <option value="" selected disabled>Pilih Hobi</option>
+                                <option value="membaca-buku">Membaba Buku</option>
+                                <option value="menulis">Menulis</option>
+                                <option value="memancing">Memancing</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Jenis Kelamin</label></td>
+                        <td>:</td>
+                        <td>
+                            <select name="jenis-kelamin" id="jenis-kelamin">
+                                <option value="" selected disabled>Pilih Jenis Kelamin</option>
+                                <option value="laki-laki">Laki-Laki</option>
+                                <option value="perempuan">Perempuan</option>
+                            </select>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td>:</td>
+                        <td><input type="text" id="email" name="email" placeholder="Email" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="alamat">Alamat</label></td>
+                        <td>:</td>
+                        <td>
+                            <textarea id="alamat" name="alamat" rows="4" cols="20" placeholder=></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="nomor-handphone">Nomor Handphone</label></td>
+                        <td>:</td>
+                        <td><input type="text" id="nomor-handphone" name="nomor-handphone" placeholder="Nomor Handphone"></td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <button type="submit">Submit</button>
+                        </td>
+                    </tr>
+            </table>
+        </fieldset>
+    </form>
+
+    <script>
+        document.getElementById("biodataForm").onsubmit = function(event) {
+            event.preventDefault(); // Mencegah form dikirim secara default
+            alert("Biodata berhasil diinput!");
+        };
+    </script>
+</body>
+</html>
