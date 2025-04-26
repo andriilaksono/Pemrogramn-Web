@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tugas-Praktikum-4</title>
+</head>
+<body>
+    <script>
+        // 1. Array
+        let array = [1, 2, 3, "hello", false, true];
+        array = array.slice(1)
+        console.log(array);
+
+        // 2. Operasi Conditional
+        let cheese = "cheddar";
+
+        if (cheese == "cheddar"){
+            console.log("Yay! Cheese available for making cheese on toast");
+        } else {
+            console.log("No cheese on toast for you today");
+        }      
+
+        // 3. Operasi Looping
+        const buku = {
+        judul: "Harry Potter and The Philosopher's Stone",
+        pengarang: "J. K. Rowling",
+        tahun: 1997
+        };
+        for (key in buku){
+            console.log(key + " : " + buku[key]);
+        }
+
+        // 4. Operasi Try - Catch - Finally
+        const number= 100, text = 'a';
+        try {
+            console.log(number/text);
+            console.log(a);
+        }
+        catch(err) {
+            console.log("An error caught");
+        }
+        finally {
+            console.log("Error Message : ReferenceError : a is not defined Finally will execute every time");
+        }
+    </script>
+</body>
+</html>
