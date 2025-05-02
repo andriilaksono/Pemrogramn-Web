@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+}
+
+nav {
+    background: gray;
+    padding: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.biodata {
+    flex: 1;
+    padding: 20px;
+    background: #d9f3f3;
+}
+
+.biodata img {
+    width: 150px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.pengalaman {
+    flex: 2;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid white;
+    text-align: left;
+    background-color: aqua;
+}
+
+footer {
+    background: gray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

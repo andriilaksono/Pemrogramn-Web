@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contoh Looping WHILE</title>
+</head>
+<script>
+function ubahWarnaLB(warna) {
+document.bgColor = warna;
+}
+function ubahWarnaLD(warna) {
+document.fgColor = warna;
+}
+</script>
+<body>
+<H1>TES</H1>
+<FORM>
+<INPUT TYPE = "BUTTON"
+VALUE = "Latar Belakang Hijau"
+onClick = "ubahWarnaLB('GREEN')">
+<INPUT TYPE = "BUTTON"
+VALUE = "Latar Belakang Putih"
+onClick = "ubahWarnaLB('WHITE')">
+<INPUT TYPE = "BUTTON"
+VALUE = "Teks Kuning"
+onClick = "ubahWarnaLD('YELLOW')">
+<INPUT TYPE = "BUTTON"
+VALUE = "Teks Biru"
+onClick = "ubahWarnaLD('BLUE')">
+</FORM>
+<script>
+document.write("Dimodifikasi terakhir pada " + document.lastModified);
+</script>
+</body>
+</html>
